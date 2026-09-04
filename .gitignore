@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+
+# Local runtime and secret artifacts
+admin_cookie.txt
+storage/*
+!storage/.gitkeep
+
+# Local logs and editor metadata
+*.log
+.vscode/
